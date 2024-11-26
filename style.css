@@ -1,0 +1,41 @@
+.table{
+    
+    padding: 5px;
+    border-spacing: 2px;
+    color:black;
+    border-radius: 2px;
+    background-color: rgb(red, green, blue);
+
+}
+.save{
+    background-color:aqua;
+    width: 250px;
+    cursor: pointer;
+}
+.btn{
+    border: 3px  solid #ddd;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 5px;
+}
+tr,td{
+    padding: 10px;
+    border-color:4px solid #ddd;
+}
+select{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#t2{
+    margin-top: 25px;
+
+}
+.remove{
+    background-color: red;
+}
+input{
+    border: none;
+    outline: none;
+    color: black;
+}

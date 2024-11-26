@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>STUDENT FORM</h2>
+    <table border="3"  class="table">
+        <tr>
+            <td style="font-weight: bold;">Name</td>
+            <td><input placeholder="enter your name"  type="text"  id="name"></td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Age</td>
+            <td><input placeholder="enter your age"  type="number"  id="age"></td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Gender</td>
+            <td> <input type="radio" id="male">Male
+            <input type="radio"  id="female">Female </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Course</td>
+            <td>
+                <select id="course">
+                    <option>Javascript</option>
+                    <option>Java</option>
+                    <option>Python</option>
+                    <option>C++</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Email</td>
+            <td><input placeholder=" enter your mail" id="email"></td>
+        </tr>
+        <tr class="btn">
+            <th colspan="2" class="btn"><button class="save" id="savebtn">Save</button></th>
+        </tr>
+    </table>
+    <table border="2" style="border-color: black;" id="t2">
+        <tr>
+            <td style="font-weight: bold;">Name</td>
+            <td style="font-weight: bold;">Age</td>
+            <td style="font-weight: bold;">Course</td>
+            <td style="font-weight: bold;">Email</td>
+            <td style="font-weight: bold;">Action</td>
+        </tr>
+
+    </table>
+</body>
+<script src="script.js"></script>
+
+</html>
+
